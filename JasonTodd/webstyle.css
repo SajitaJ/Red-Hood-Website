@@ -1,0 +1,126 @@
+
+body {
+  margin: 1;
+  font-family: Roboto, sans-serif;
+  font-size: 110%;
+  background-color: #111;
+  color: lightgray;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  position: sticky;
+  top: 0;
+
+  background-color: #111;
+  padding: 10px  20px;
+}
+
+.logo{
+  height: 40px;
+}
+
+.nav-links a {
+  color: lightgray;
+  margin-left: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav-links a:hover{
+  color: red;
+}
+
+button {
+  background-color: #111;
+
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+button a{
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+button a:hover{
+  color: red;
+}
+
+p{
+  color: lightgray;
+}
+p a{
+  color: red;
+  text-decoration: none;
+}
+
+p a:hover{
+  color: darkred;
+}
+
+
+
+li a{
+  color: red;
+  text-decoration: none;
+}
+
+li a:hover{
+  color: indianred;
+}
+
+h1{
+  color: darkred ;
+}
+
+h2{
+  color: darkred;
+}
+
+h3{
+  color: indianred;
+}
+
+.section{
+  padding: 25px 20px;
+}
+
+.dark{
+  background-color: #111;
+  color: lightgray;
+}
+
+.light {
+  background-color: #1f1f1f;
+  color: lightgray;
+}
+
+.content{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.image{
+  width: 40%;
+  border-radius: 10px;
+}
+
+.facts{
+  max-width: 1400px;
+}
+
+.section a {
+ color: red;
+}
+
+.section a:hover{
+  color: darkred;
+
+
